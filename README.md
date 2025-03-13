@@ -6,5 +6,5 @@ As part of the Data Science Certificate program at the University of Toronto’s
 
 ## Members
 
-- [Anna Veremchuk] (https://github.com/anneveremtchouk)
+- [Anna Veremchuk](https://github.com/anneveremtchouk)
 - Hadia Hussain
