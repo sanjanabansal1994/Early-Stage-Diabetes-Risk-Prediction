@@ -31,3 +31,42 @@ For insurance companies, integrating this predictive model into underwriting and
 - Encourage Preventive Health Measures – Engage customers with targeted wellness programs.
 - Reduce Claims & Improve Profitability – Lower long-term medical costs through early intervention strategies.
 - By adopting data-driven risk prediction, insurers can enhance customer satisfaction, reduce uncertainties in policy underwriting, and drive business growth through proactive healthcare solutions.
+
+## Project Overview
+
+## Dependencies
+This project uses the following Python libraries
+
+- NumPy : For fast matrix operations.
+- pandas : For analysing and getting insights from datasets.
+- matplotlib : For creating graphs and plots.
+- seaborn : For enhancing the style of matplotlib plots.
+- sklearn : For linear regression analysis.
+- plotly : For dynamic plots
+
+## Exploratory Analysis
+
+### Schema
+|Variable Name|Type|Description |Value|
+|-------------|----|------------|-----|
+|Age          |Integer|Age of the person|20-65|		
+|Sex | Binary| Sex of the person|1. Male, 2.Female|	
+|Polyuria| Binary|Excessive Urine production| 1.Yes, 2.No.|	
+|Polydipsia | Binary|Excessive thirst|1.Yes, 2.No.|		
+|sudden weight loss| Binary|Sudden weight loss|1.Yes, 2.No.|
+|weakness 1.Yes, 2.No.		
+Polyphagia 1.Yes, 2.No.		
+Genital thrush 1.Yes, 2.No.		
+visual blurring 1.Yes, 2.No.		
+Itching 1.Yes, 2.No.		
+Irritability 1.Yes, 2.No.		
+delayed healing 1.Yes, 2.No.		
+partial paresis 1.Yes, 2.No.		
+muscle stiffness 1.Yes, 2.No.		
+Alopecia 1.Yes, 2.No.		
+Obesity 1.Yes, 2.No.		
+Class 1.Positive, 2.Negative.
+
+
+
+
