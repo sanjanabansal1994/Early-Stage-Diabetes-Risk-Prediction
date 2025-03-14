@@ -37,7 +37,7 @@ For insurance companies, integrating this predictive model into underwriting and
 ## Data description
 We are using the Early Stage Diabetes Risk Prediction dataset from the UC Irvine Machine Learning Repository. The dataset contains 16 features and 520 observations collected from direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh and approved by a doctor.
 
-## Dependencies
+### Dependencies
 This project uses the following Python libraries
 
 - NumPy : For fast matrix operations.
@@ -47,7 +47,7 @@ This project uses the following Python libraries
 - sklearn : For linear regression analysis.
 - plotly : For dynamic plots
 
-## Methodology 
+### Methodology 
 
 ## Exploratory Analysis
 
@@ -72,8 +72,8 @@ This project uses the following Python libraries
 |Obesity |object|Excessive body fat|1.Yes, 2.No.|
 |Class |object|Target variable: whether the patient is positive for early stage diabetes| 1.Positive, 2.Negative.|
 
-# Data Preprocessing 
-# Model Selection and Training 
+### Data Preprocessing 
+### Model Selection and Training 
 # Results 
 # Key Findings
 
