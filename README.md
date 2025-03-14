@@ -73,6 +73,7 @@ This project uses the following Python libraries
 ### Exploratory Analysis
 ### Data Preprocessing 
 ### Model Selection and Training 
+### Model Optimization
 ## Results 
 ## Key Findings
 
