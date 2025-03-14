@@ -1,8 +1,8 @@
-# Early-Stage-Diabetes-Risk-Prediction
+# Early Stage Diabetes Risk Prediction
 
 ## Introduction
 
-As part of the Data Science Certificate program at the University of Toronto’s Data Sciences Institute for our capstone team project, we chose the "Early-Stage-Diabetes-Risk-Prediction" dataset. This project explores the which demographic and clinical features are the most significant predictors of early-stage diabetes risk among individuals. From data exploration to creating different models to generate actionable insights, this project demonstrates our accomplishments throughout the certification program and highlights our potential to contribute to the data science field.
+As part of the Machine Learning certificate program at the University of Toronto’s Data Sciences Institute, our team project explored which demographic and clinical features are the most significant predictors of early-stage diabetes risk among individuals. Using the Early-Stage Diabetes Risk Prediction dataset from the UC Irvine Machine Learning Repository, we have developed a business case, conducted data exploration, data cleaning, model selection, hyperparameter tuning, and generated actionable insights. This project highlights our competencies in data science and machine learning, showcasing our ability to tackle real-world challenges.
 
 ## Members
 
@@ -49,23 +49,23 @@ This project uses the following Python libraries
 ### Schema
 |Variable Name|Type|Description |Value|
 |-------------|----|------------|-----|
-|Age          |Integer|Age of the person|20-65|		
-|Sex | Binary| Sex of the person|1. Male, 2.Female|	
-|Polyuria| Binary|Excessive Urine production| 1.Yes, 2.No.|	
-|Polydipsia | Binary|Excessive thirst|1.Yes, 2.No.|		
-|sudden weight loss| Binary|Sudden weight loss|1.Yes, 2.No.|
-|weakness 1.Yes, 2.No.		
-Polyphagia 1.Yes, 2.No.		
-Genital thrush 1.Yes, 2.No.		
-visual blurring 1.Yes, 2.No.		
-Itching 1.Yes, 2.No.		
-Irritability 1.Yes, 2.No.		
-delayed healing 1.Yes, 2.No.		
-partial paresis 1.Yes, 2.No.		
-muscle stiffness 1.Yes, 2.No.		
-Alopecia 1.Yes, 2.No.		
-Obesity 1.Yes, 2.No.		
-Class 1.Positive, 2.Negative.
+|Age          |int64|Age of the person|20-65|		
+|Sex | object| Sex of the person|1. Male, 2.Female|	
+|Polyuria| object|Excessive Urine production| 1.Yes, 2.No.|	
+|Polydipsia | object|Excessive thirst|1.Yes, 2.No.|		
+|Sudden weight loss| object|Sudden weight loss|1.Yes, 2.No.|
+|Weakness|object|| 1.Yes, 2.No.|
+|Polyphagia |object||1.Yes, 2.No.		
+|Genital thrush|object|| 1.Yes, 2.No.		
+|visual blurring |object|| 1.Yes, 2.No.		
+|Itching |object|| 1.Yes, 2.No.		
+|Irritability|object|| 1.Yes, 2.No.		
+|Delayed healing |object|| 1.Yes, 2.No.		
+|partial paresis |object|| 1.Yes, 2.No.		
+|muscle stiffness |object|| 1.Yes, 2.No.		
+|Alopecia |object|| 1.Yes, 2.No.		
+|Obesity |object||1.Yes, 2.No.		
+|Class |object|| 1.Positive, 2.Negative.
 
 
 
