@@ -14,7 +14,7 @@ As part of the Machine Learning certificate program at the University of Toronto
 
 ## Project Overview
 
-## Business Case
+### Business Case
 
 Insurance companies face challenges in assessing health risks and underwriting policies effectively. Early-stage diabetes, if undetected, can lead to severe health complications, increasing long-term claims and costs. A predictive model that accurately identifies individuals at risk of developing diabetes enables insurers to:
 
@@ -24,7 +24,7 @@ Insurance companies face challenges in assessing health risks and underwriting p
 
 Our Early-Stage Diabetes Risk Prediction Model leverages machine learning and feature selection techniques to enhance the accuracy of risk assessment. By focusing on the most significant predictors, the model minimizes overfitting and improves performance metrics such as **F-measure, Precision-Recall Curve, and ROC-AUC**, ensuring robust decision-making for insurers.
 
-## Business Impact
+### Business Impact
 
 For insurance companies, integrating this predictive model into underwriting and policy management can:
 
@@ -37,21 +37,7 @@ For insurance companies, integrating this predictive model into underwriting and
 ## Data description
 We are using the Early Stage Diabetes Risk Prediction dataset from the UC Irvine Machine Learning Repository. The dataset contains 16 features and 520 observations collected from direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh and approved by a doctor.
 
-### Dependencies
-This project uses the following Python libraries
-
-- NumPy : For fast matrix operations.
-- pandas : For analysing and getting insights from datasets.
-- matplotlib : For creating graphs and plots.
-- seaborn : For enhancing the style of matplotlib plots.
-- sklearn : For linear regression analysis.
-- plotly : For dynamic plots
-
-### Methodology 
-
-## Exploratory Analysis
-
-### Schema
+### Data Dictionary
 |Variable Name|Type|Description |Value|
 |-------------|----|------------|-----|
 |Age          |int64|Age of the person|20-65|		
@@ -72,9 +58,22 @@ This project uses the following Python libraries
 |Obesity |object|Excessive body fat|1.Yes, 2.No.|
 |Class |object|Target variable: whether the patient is positive for early stage diabetes| 1.Positive, 2.Negative.|
 
+### Dependencies
+This project uses the following Python libraries
+
+- NumPy : For fast matrix operations.
+- pandas : For analysing and getting insights from datasets.
+- matplotlib : For creating graphs and plots.
+- seaborn : For enhancing the style of matplotlib plots.
+- sklearn : For linear regression analysis.
+- plotly : For dynamic plots
+
+## Methodology 
+
+### Exploratory Analysis
 ### Data Preprocessing 
 ### Model Selection and Training 
-# Results 
-# Key Findings
+## Results 
+## Key Findings
 
 
