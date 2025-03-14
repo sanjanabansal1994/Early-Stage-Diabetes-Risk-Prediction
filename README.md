@@ -54,18 +54,18 @@ This project uses the following Python libraries
 |Polyuria| object|Excessive Urine production| 1.Yes, 2.No.|	
 |Polydipsia | object|Excessive thirst|1.Yes, 2.No.|		
 |Sudden weight loss| object|Sudden weight loss|1.Yes, 2.No.|
-|Weakness|object|| 1.Yes, 2.No.|
-|Polyphagia |object||1.Yes, 2.No.		
-|Genital thrush|object|| 1.Yes, 2.No.		
-|visual blurring |object|| 1.Yes, 2.No.		
-|Itching |object|| 1.Yes, 2.No.		
-|Irritability|object|| 1.Yes, 2.No.		
-|Delayed healing |object|| 1.Yes, 2.No.		
-|partial paresis |object|| 1.Yes, 2.No.		
-|muscle stiffness |object|| 1.Yes, 2.No.		
-|Alopecia |object|| 1.Yes, 2.No.		
-|Obesity |object||1.Yes, 2.No.		
-|Class |object|| 1.Positive, 2.Negative.
+|Weakness|object|Whether the patient experienced weakness| 1.Yes, 2.No.|
+|Polyphagia |object|Excessive hunger|1.Yes, 2.No.	|
+|Genital thrush|object|Yeast infection that affects men and women| 1.Yes, 2.No.	|
+|Visual blurring |object|Blurred vision| 1.Yes, 2.No. |	
+|Itching |object|Irritating sensation on skin| 1.Yes, 2.No. |
+|Irritability|object| heightened sensitivity, a tendency to become easily annoyed or angered| 1.Yes, 2.No.	|
+|Delayed healing |object|Slow-healing cuts, bruises, and sores| 1.Yes, 2.No.|
+|partial paresis |object|partial or mild paralysis| 1.Yes, 2.No.|		
+|muscle stiffness |object|pain or tightness in muscles| 1.Yes, 2.No.|
+|Alopecia |object|Hair loss| 1.Yes, 2.No.|
+|Obesity |object|Excessive body fat|1.Yes, 2.No.|
+|Class |object|Target variable: whether the patient is positive for early stage diabetes| 1.Positive, 2.Negative.|
 
 
 
