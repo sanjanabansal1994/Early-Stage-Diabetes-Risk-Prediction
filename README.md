@@ -12,6 +12,8 @@ As part of the Machine Learning certificate program at the University of Toronto
 - [Mehrdad Malek](https://github.com/mehrdadmalekmo)
 - [Sanjana Garg](https://github.com/sanjanabansal1994)
 
+## Project Overview
+
 ## Business Case
 
 Insurance companies face challenges in assessing health risks and underwriting policies effectively. Early-stage diabetes, if undetected, can lead to severe health complications, increasing long-term claims and costs. A predictive model that accurately identifies individuals at risk of developing diabetes enables insurers to:
@@ -32,7 +34,8 @@ For insurance companies, integrating this predictive model into underwriting and
 - Reduce Claims & Improve Profitability – Lower long-term medical costs through early intervention strategies.
 - By adopting data-driven risk prediction, insurers can enhance customer satisfaction, reduce uncertainties in policy underwriting, and drive business growth through proactive healthcare solutions.
 
-## Project Overview
+## Data description
+We are using the Early Stage Diabetes Risk Prediction dataset from the UC Irvine Machine Learning Repository. The dataset contains 16 features and 520 observations collected from direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh and approved by a doctor.
 
 ## Dependencies
 This project uses the following Python libraries
@@ -43,6 +46,8 @@ This project uses the following Python libraries
 - seaborn : For enhancing the style of matplotlib plots.
 - sklearn : For linear regression analysis.
 - plotly : For dynamic plots
+
+## Methodology 
 
 ## Exploratory Analysis
 
@@ -67,6 +72,9 @@ This project uses the following Python libraries
 |Obesity |object|Excessive body fat|1.Yes, 2.No.|
 |Class |object|Target variable: whether the patient is positive for early stage diabetes| 1.Positive, 2.Negative.|
 
-
+# Data Preprocessing 
+# Model Selection and Training 
+# Results 
+# Key Findings
 
 
