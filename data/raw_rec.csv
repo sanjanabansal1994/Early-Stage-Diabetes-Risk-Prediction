@@ -1,4 +1,4 @@
-,gender,polyuria,polydipsia,sudden_weight_loss,weakness,polyphagia,genital_thrush,visual_blurring,itching,irritability,delayed_healing,partial_paresis,muscle_stiffness,alopecia,obesity,class,age_group_<=34,age_group_35 - 49,age_group_50 - 64,age_group_65<=
+,gender,polyuria,polydipsia,sudden_weight_loss,weakness,polyphagia,genital_thrush,visual_blurring,itching,irritability,delayed_healing,partial_paresis,muscle_stiffness,alopecia,obesity,class,age_group__34,age_group_35_49,age_group_50_64,age_group_65_
 0,1,0,1,0,1,0,0,0,1,0,1,0,1,1,1,1,0,1,0,0
 1,1,0,0,0,1,0,0,1,0,0,0,1,0,1,0,1,0,0,1,0
 2,1,1,0,0,1,1,0,0,1,0,1,0,1,1,0,1,0,1,0,0
