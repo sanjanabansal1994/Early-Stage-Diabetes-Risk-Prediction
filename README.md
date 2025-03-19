@@ -84,23 +84,24 @@ Note: Red corresponds to patients positive for early-stage diabetes and blue cor
 2. **Gender**: The dataset includes both male and female patients, with a higher frequency of males. However, when looking by class, there was higher proportion of females positive for early-stage diabetes than males.
 3. **Polyuria**: This binary feature indicates whether a patient experiences excessive urination. The distribution shows a higher count of patients without polyuria compared to those with polyuria. When looking by class, more patients with the target variable
 4. **Polydipsia**: Similar to polyuria, this binary feature represents excessive thirst. More patients do not exhibit polydipsia.​ However, more patients with early-stage diabetes reported polydipsia.
-5. **Sudden Weight Loss:** The distribution reveals that most patients have not experienced sudden weight loss, while a smaller fraction has.​
-6. **Weakness:** A significant portion of patients report weakness, indicating it as a common symptom in the dataset.​
-7. **Polyphagia:** This feature denotes excessive hunger. The distribution shows that fewer patients experience polyphagia compared to those who do not.​
-8. **Genital Thrush:** The majority of patients do not have genital thrush, with a smaller subset reporting the condition.​
-9. **Visual Blurring:** A considerable number of patients experience visual blurring, highlighting its potential relevance to diabetes risk.​
-10. **Itching:** The distribution indicates that itching is present in a notable fraction of patients.
-11. **Irritability:** Fewer patients report irritability compared to those who do not.
-12. **Delayed Healing:** A significant portion of patients experience delayed healing, which could be associated with diabetes.
-13. **Partial Paresis:** The distribution shows that partial paresis is less common among the patients.
+5. **Sudden Weight Loss:** The distribution reveals that more patients have not experienced sudden weight loss. When looking by class, a larger proportion of those with early-stage diabetes may report sudden weight loss.​
+6. **Weakness:** A higher portion of patients report weakness, indicating it as a common symptom in the dataset.​ When looking by class, a larger proportion of those with early-stage diabetes may report weakness.​
+7. **Polyphagia:** This feature denotes excessive hunger which appears to be evenly distributed. The distribution by class shows that more patients with early-stage diabetes may experience polyphagia.​
+8. **Genital Thrush:** The majority of patients do not have genital thrush, with a smaller subset reporting the target condition.​
+9. **Visual Blurring:** More patients experienced visual blurring, highlighting its potential relevance to diabetes risk.​
+10. **Itching:** Itching appears to be evenly distributed.
+11. **Irritability:** Fewer patients report irritability overall but a larger proportion of those with early-stage diabetes reporting irritability. 
+12. **Delayed Healing:** Delayed healing appears to be evenly distributed.
+13. **Partial Paresis:** While fewer patients reported partial peresis overall, the distribution shows that a higher proportion of those reporting partial paresis were positive for early-stage diabetes.
 14. **Muscle Stiffness:** Muscle stiffness is reported by a smaller subset of patients.
-15. **Alopecia:** The majority of patients do not have alopecia (hair loss), with a minor fraction affected.
-16. **Obesity:** The dataset indicates a balanced distribution between obese and non-obese patients, suggesting obesity as a potential factor in diabetes risk.
-17. **Class:** This target variable indicates the presence or absence of early-stage diabetes. The distribution shows a higher count of non-diabetic patients compared to diabetic ones.
-
+15. **Alopecia:** The majority of patients do not have alopecia (hair loss), with a minor fraction affected with early stage diabetes.
+16. **Obesity:** While fewer patients reported obesity, a larger proportion of those reporting obesity were positive for early stage diabetes.
+    
 These steps collectively provide a comprehensive understanding of the dataset, facilitating the development of predictive models for early-stage diabetes risk.
+
 ### Data Preprocessing 
 After exploratory data analysis, several steps were taken to clean the data to prepare for modelling. This included creating a new categorical variable for age group and one hot encoding this to get dummy variables as well as recoding all binary variables from Yes/No to [0,1]. 
+
 ### Model Selection and Training 
 ### Model Optimization
 ## Results 
