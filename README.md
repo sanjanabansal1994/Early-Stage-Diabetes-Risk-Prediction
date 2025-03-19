@@ -72,27 +72,29 @@ This project uses the following Python libraries
 
 ### Exploratory Analysis
 ​The exploratory data analysis (EDA) in the "Early Stage Diabetes Risk Prediction" project required several key steps. The dataset was loaded and initial exploration was conducted to understand the structure and the contents of the data itself (number of observations and features, data types, etc). Next, descriptive statistics was performed on all features. This involved looking at both numeric and binary features. Since age was numeric, the mean age and interquartile range was calculated, the age distribution of the data was visualized using a histogram, as well as the age distribution by class (the target variable: early-stage diabetes). For the binary features, each feature was visualized using bar graphs to look at the distribution (and whether it was even or skewed within a feature) followed by looking at each feature by class to determine whether there were any class imbalances within the features. This was also presented in tabular form. The visualizations and interpretation of the exploratory data analysis can be found below: 
-
+**Feature distribution**
 ![image](https://github.com/user-attachments/assets/fe0501a0-3581-40b1-8852-d99671ff1560)
+**Feature distribution by Early-stage diabetes status (class)**
 ![image](https://github.com/user-attachments/assets/b61b4574-6126-4a45-950d-af026a5bbc78)
+Note: Red corresponds to patients positive for early-stage diabetes and blue corresponds to patients negative for early-stage diabetes. 
 
-**Age**: the age distribution is approximately normal, with most patients aged between 40 and 60 years. This suggests that middle-aged individuals constitute the majority of the dataset.
-**Gender**: The dataset includes both male and female patients, with a higher frequency of males. However, when looking by class, there was higher proportion of females positive for early-stage diabetes than males. 
-**Polyuria**: This binary feature indicates whether a patient experiences excessive urination. The distribution shows a higher count of patients without polyuria compared to those with polyuria. When looking by class, more patients with the target variable​
-**Polydipsia**: Similar to polyuria, this binary feature represents excessive thirst. More patients do not exhibit polydipsia.​ However, more patients with early-stage diabetes reported polydipsia. 
-**Sudden Weight Loss:** The distribution reveals that most patients have not experienced sudden weight loss, while a smaller fraction has.​
-**Weakness:** A significant portion of patients report weakness, indicating it as a common symptom in the dataset.​
-**Polyphagia:** This feature denotes excessive hunger. The distribution shows that fewer patients experience polyphagia compared to those who do not.​
-**Genital Thrush:** The majority of patients do not have genital thrush, with a smaller subset reporting the condition.​
-**Visual Blurring:** A considerable number of patients experience visual blurring, highlighting its potential relevance to diabetes risk.​
-**Itching:** The distribution indicates that itching is present in a notable fraction of patients.
-**Irritability:** Fewer patients report irritability compared to those who do not.
-**Delayed Healing:** A significant portion of patients experience delayed healing, which could be associated with diabetes.
-**Partial Paresis:** The distribution shows that partial paresis is less common among the patients.
-**Muscle Stiffness:** Muscle stiffness is reported by a smaller subset of patients.
-**Alopecia:** The majority of patients do not have alopecia (hair loss), with a minor fraction affected.
-**Obesity:** The dataset indicates a balanced distribution between obese and non-obese patients, suggesting obesity as a potential factor in diabetes risk.
-**Class:** This target variable indicates the presence or absence of early-stage diabetes. The distribution shows a higher count of non-diabetic patients compared to diabetic ones.
+[^1]: **Age**: the age distribution is approximately normal, with most patients aged between 40 and 60 years. This suggests that middle-aged individuals constitute the majority of the dataset.
+[^2]: **Gender**: The dataset includes both male and female patients, with a higher frequency of males. However, when looking by class, there was higher proportion of females positive for early-stage diabetes than males. 
+[^3]:**Polyuria**: This binary feature indicates whether a patient experiences excessive urination. The distribution shows a higher count of patients without polyuria compared to those with polyuria. When looking by class, more patients with the target variable​
+[^4]:**Polydipsia**: Similar to polyuria, this binary feature represents excessive thirst. More patients do not exhibit polydipsia.​ However, more patients with early-stage diabetes reported polydipsia. 
+[^5]:**Sudden Weight Loss:** The distribution reveals that most patients have not experienced sudden weight loss, while a smaller fraction has.​
+[^6]:**Weakness:** A significant portion of patients report weakness, indicating it as a common symptom in the dataset.​
+[^7]:**Polyphagia:** This feature denotes excessive hunger. The distribution shows that fewer patients experience polyphagia compared to those who do not.​
+[^8]:**Genital Thrush:** The majority of patients do not have genital thrush, with a smaller subset reporting the condition.​
+[^1]:**Visual Blurring:** A considerable number of patients experience visual blurring, highlighting its potential relevance to diabetes risk.​
+[^1]:**Itching:** The distribution indicates that itching is present in a notable fraction of patients.
+[^1]:**Irritability:** Fewer patients report irritability compared to those who do not.
+[^1]:**Delayed Healing:** A significant portion of patients experience delayed healing, which could be associated with diabetes.
+[^1]:**Partial Paresis:** The distribution shows that partial paresis is less common among the patients.
+[^1]:**Muscle Stiffness:** Muscle stiffness is reported by a smaller subset of patients.
+[^1]:**Alopecia:** The majority of patients do not have alopecia (hair loss), with a minor fraction affected.
+[^1]:**Obesity:** The dataset indicates a balanced distribution between obese and non-obese patients, suggesting obesity as a potential factor in diabetes risk.
+[^1]:**Class:** This target variable indicates the presence or absence of early-stage diabetes. The distribution shows a higher count of non-diabetic patients compared to diabetic ones.
 
 These steps collectively provide a comprehensive understanding of the dataset, facilitating the development of predictive models for early-stage diabetes risk.
 ### Data Preprocessing 
