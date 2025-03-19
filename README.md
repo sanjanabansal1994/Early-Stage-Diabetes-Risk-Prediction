@@ -100,8 +100,7 @@ Note: Red corresponds to patients positive for early-stage diabetes and blue cor
 
 These steps collectively provide a comprehensive understanding of the dataset, facilitating the development of predictive models for early-stage diabetes risk.
 ### Data Preprocessing 
-- recoding variables into four groups
-- 
+After exploratory data analysis, several steps were taken to clean the data to prepare for modelling. This included creating a new categorical variable for age group and one hot encoding this to get dummy variables as well as recoding all binary variables from Yes/No to [0,1]. 
 ### Model Selection and Training 
 ### Model Optimization
 ## Results 
