@@ -28,11 +28,14 @@ Our Early-Stage Diabetes Risk Prediction Model leverages machine learning and fe
 
 For insurance companies, integrating this predictive model into underwriting and policy management can:
 
+- Minimize risk for insurance companies: by optimizing the model to reduce false negatives (i.e., falsely categorizing an high-risk individual as low risk), insurance companies can minimize the risk they are taking on with more certainty.
 - Improve Risk Stratification – Accurately segment policyholders based on diabetes risk.
 - Personalized Premiums & Coverage – Offer dynamic pricing based on real-time health insights.
 - Encourage Preventive Health Measures – Engage customers with targeted wellness programs.
 - Reduce Claims & Improve Profitability – Lower long-term medical costs through early intervention strategies.
 - By adopting data-driven risk prediction, insurers can enhance customer satisfaction, reduce uncertainties in policy underwriting, and drive business growth through proactive healthcare solutions.
+
+However, it is important to note that there are some risks and unknowns that may affect the interpretability of the results. For instance, the features used to develop the model are self-reported. Therefore, if an individual did not report certain symptoms, this would be an unknown the model would not be able to account for this. Understanding that there is a certain level of under-reporting of symptoms will help to understand the data and subsequent conclusions made from the reuslts.  
 
 ## Data description
 We are using the Early Stage Diabetes Risk Prediction dataset from the UC Irvine Machine Learning Repository. The dataset contains 16 features and 520 observations collected from direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh and approved by a doctor.
