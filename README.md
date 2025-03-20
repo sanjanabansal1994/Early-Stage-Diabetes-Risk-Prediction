@@ -40,6 +40,10 @@ However, it is important to note that there are some risks and unknowns that may
 ## Data description
 We are using the Early Stage Diabetes Risk Prediction dataset from the UC Irvine Machine Learning Repository. The dataset contains 16 features and 520 observations collected from direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh and approved by a doctor.
 
+## Limitations of the Analysis
+
+This study utilizes the Early Stage Diabetes Risk Prediction dataset, which presents several limitations. A primary constraint is the sample size, comprising only 520 observations. Given that the dataset is based on responses from patients at Sylhet Diabetes Hospital in Sylhet, Bangladesh, its generalizability to broader populations is limited. Furthermore, the dataset relies on self-reported data, which introduces potential concerns regarding reliability and validity. Specifically, the accuracy of the responses cannot be independently verified against medical records, raising the possibility of measurement errors or biases in the reported information.
+
 ### Data Dictionary
 |Variable Name|Type|Description |Value|
 |-------------|----|------------|-----|
