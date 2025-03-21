@@ -80,10 +80,10 @@ This project uses the following Python libraries
 ### Exploratory Analysis
 ​The exploratory data analysis (EDA) in the "Early Stage Diabetes Risk Prediction" project required several key steps. The dataset was loaded and initial exploration was conducted to understand the structure and the contents of the data itself (number of observations and features, data types, etc). Next, descriptive statistics was performed on all features. This involved looking at both numeric and binary features. Since age was numeric, the mean age and interquartile range was calculated, the age distribution of the data was visualized using a histogram, as well as the age distribution by class (the target variable: early-stage diabetes). For the binary features, each feature was visualized using bar graphs to look at the distribution (and whether it was even or skewed within a feature) followed by looking at each feature by class to determine whether there were any class imbalances within the features. This was also presented in tabular form. The visualizations and interpretation of the exploratory data analysis can be found below: 
 
-**Feature distribution**
+**Figure 1. Feature distribution**
 ![image](https://github.com/user-attachments/assets/fe0501a0-3581-40b1-8852-d99671ff1560)
 
-**Feature distribution by Early-stage diabetes status (class)**
+**Figure 2: Feature distribution by Early-stage diabetes status (class)**
 ![image](https://github.com/user-attachments/assets/b61b4574-6126-4a45-950d-af026a5bbc78)
 Note: Red corresponds to patients positive for early-stage diabetes and blue corresponds to patients negative for early-stage diabetes. 
 
@@ -110,7 +110,23 @@ These steps collectively provide a comprehensive understanding of the dataset, f
 After exploratory data analysis, several steps were taken to clean the data to prepare for modelling. This included creating a new categorical variable for the age group and one hot encoding to get dummy variables and recoding all binary variables from Yes/No to [0,1]. 
 
 ### Model Selection and Training 
-To explore this further, we developed several models including logistic regression, KNN, decision trees, random forest, XG boost, and neural networks. We split our dataset into a training set (80%) and a validation set (20%)
+To explore this further, we developed several models including logistic regression, KNN classification, decision trees, random forest, XG boost, and neural networks. We split our dataset into a training set (80%) and a validation set (20%). Each model was tested and trained using the same test-train split. Each model was assessed based on the acciracy, and the confusion matrix. 
+
+**Figure 3a. Confusion matrix for logistic regression model**
+![image](https://github.com/user-attachments/assets/563f55cc-f496-4887-8f5f-764837735c2a)
+
+**Figure 3b. Confusion matrix for KNN classification model**
+![image](https://github.com/user-attachments/assets/e969dde4-1d8f-4716-bc61-814cf23a9241)
+
+**Figure 3c. Confusion matrix for Decision Tree model**
+![image](https://github.com/user-attachments/assets/24201672-4510-473c-ad09-a26593cd718d)
+
+**Figure 3d. Confusion matrix for Random Forest model**
+![image](https://github.com/user-attachments/assets/7ddfa056-48b0-4f3e-875a-5c641329391d)
+
+**Figure 3e. Confusion matrix for XG boost model**
+![image](https://github.com/user-attachments/assets/3ecf8a30-bd73-4ae6-8e53-85588ea4cc19)
+
 ### Model Optimization
 ## Results 
 ## Key Findings
