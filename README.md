@@ -129,11 +129,13 @@ Based on these two metrics, the random forest model had the highest accuracy (0.
 **Figure 3d. Confusion matrix for Random Forest model**
 ![image](https://github.com/user-attachments/assets/7ddfa056-48b0-4f3e-875a-5c641329391d)
 
+
 **Figure 3e. Confusion matrix for XG boost model**
 ![image](https://github.com/user-attachments/assets/3ecf8a30-bd73-4ae6-8e53-85588ea4cc19)
 
 ## Results 
 The feature importance analysis highlights the most influential predictors of diabetes risk in our model. The features with the highest importance were polyuria (frequent urination) and polydipsia (excessive thirst), with both at similar levels. Gender also played an important role in predicting risk. Other notable features included sudden weight loss, alopecia, partial paresis, and irritability. The remaining features were lower in importance and therefore were less influential in distinguishing between high-risk and low-risk individuals compared to other features. 
+
 **Table 1. Feature Importance of the Random forest model**
 |Feature Name|Importance |
 |------------|-----------|
@@ -159,4 +161,9 @@ The feature importance analysis highlights the most influential predictors of di
 
 ## Key Findings
 
+Using our model, Polyuria and Polydipsia were the most predictive symptoms, reinforcing their role as hallmark signs of diabetes. Insurance companies can refine their risk assessment models by prioritizing these symptoms in underwriting. Applicants reporting these symptoms may warrant further medical evaluation before determining policy eligibility or premium rates. Less influential symptoms in our model included sudden weight loss, alopecia, and partial paresis. Identifying these symptoms early can help insurers encourage policyholders to seek medical advice or preventive care, potentially reducing long-term healthcare costs and claims related to advanced diabetes complications.
+
+By integrating these findings, insurance companies can improve risk stratification, enhance accuarcy by reducing the likelihood of misclassifying high-risk individuals as low-risk, offer personalized health interventions to policyholders, and optimize premium pricing (ensuring alignment with actual health risks while maintaining competitive. 
+
 ## Model Optimization
+The chosen model already has high accuracy however it can be improved by identifying and removing less useful features, hyperparameter tuning, and cross-validation. These adjustments can reduce risk of overfitting and provide a better estimate of how well our model works on unseen data.
