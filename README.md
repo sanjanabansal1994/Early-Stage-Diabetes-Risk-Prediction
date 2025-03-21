@@ -97,19 +97,20 @@ Note: Red corresponds to patients positive for early-stage diabetes and blue cor
 8. **Genital Thrush:** The majority of patients do not have genital thrush, with a smaller subset reporting the target condition.​
 9. **Visual Blurring:** More patients experienced visual blurring, highlighting its potential relevance to diabetes risk.​
 10. **Itching:** Itching appears to be evenly distributed.
-11. **Irritability:** Fewer patients report irritability overall but a larger proportion of those with early-stage diabetes reporting irritability. 
+11. **Irritability:** Fewer patients report irritability overall but a larger proportion of those with early-stage diabetes report irritability. 
 12. **Delayed Healing:** Delayed healing appears to be evenly distributed.
-13. **Partial Paresis:** While fewer patients reported partial peresis overall, the distribution shows that a higher proportion of those reporting partial paresis were positive for early-stage diabetes.
+13. **Partial Paresis:** While fewer patients reported partial paresis overall, the distribution shows that a higher proportion of those reporting partial paresis was positive for early-stage diabetes.
 14. **Muscle Stiffness:** Muscle stiffness is reported by a smaller subset of patients.
-15. **Alopecia:** The majority of patients do not have alopecia (hair loss), with a minor fraction affected with early stage diabetes.
-16. **Obesity:** While fewer patients reported obesity, a larger proportion of those reporting obesity were positive for early stage diabetes.
+15. **Alopecia:** Most patients do not have alopecia (hair loss), with a minor fraction affected by early-stage diabetes.
+16. **Obesity:** While fewer patients reported obesity, a larger proportion of those reporting obesity were positive for early-stage diabetes.
     
 These steps collectively provide a comprehensive understanding of the dataset, facilitating the development of predictive models for early-stage diabetes risk.
 
 ### Data Preprocessing 
-After exploratory data analysis, several steps were taken to clean the data to prepare for modelling. This included creating a new categorical variable for age group and one hot encoding this to get dummy variables as well as recoding all binary variables from Yes/No to [0,1]. 
+After exploratory data analysis, several steps were taken to clean the data to prepare for modelling. This included creating a new categorical variable for the age group and one hot encoding to get dummy variables and recoding all binary variables from Yes/No to [0,1]. 
 
 ### Model Selection and Training 
+To explore this further, we developed several models including logistic regression, KNN, decision trees, random forest, XG boost, and neural networks. We split our dataset into a training set (80%) and a validation set (20%)
 ### Model Optimization
 ## Results 
 ## Key Findings
