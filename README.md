@@ -110,7 +110,11 @@ These steps collectively provide a comprehensive understanding of the dataset, f
 After exploratory data analysis, several steps were taken to clean the data to prepare for modelling. This included creating a new categorical variable for the age group and one hot encoding to get dummy variables and recoding all binary variables from Yes/No to [0,1]. 
 
 ### Model Selection and Training 
-To explore this further, we developed several models including logistic regression, KNN classification, decision trees, random forest, XG boost, and neural networks. We split our dataset into a training set (80%) and a validation set (20%). Each model was tested and trained using the same test-train split. Each model was assessed based on the acciracy, and the confusion matrix. 
+To further investigate this, we developed multiple machine learning models, including logistic regression, K-Nearest Neighbors (KNN), decision trees, random forest, XGBoost, and neural networks. The dataset was divided into a training set (80%) and a validation set (20%), ensuring a consistent test-train split across all models.
+
+Each model was evaluated based on accuracy and its corresponding confusion matrix, as shown below. Accuracy was used to identify the best-performing model, while the confusion matrix provided insight into false negatives—instances where high-risk individuals were misclassified as low-risk (bottom left corner of the confusion matrix). Minimizing false negatives was a key priority, as misclassifying high-risk individuals could pose a significant financial risk to insurance companies. If an individual with a higher likelihood of developing early-stage diabetes is incorrectly classified as low-risk, they may receive a lower premium despite carrying a higher potential cost, ultimately increasing the insurer's exposure to risk.
+
+Based on these two metrics, the random forest model had the highest accuracy (0.98) and and only predicted one false negative.Thus it was selected as the best performing model.  
 
 **Figure 3a. Confusion matrix for logistic regression model**
 ![image](https://github.com/user-attachments/assets/563f55cc-f496-4887-8f5f-764837735c2a)
@@ -127,8 +131,31 @@ To explore this further, we developed several models including logistic regressi
 **Figure 3e. Confusion matrix for XG boost model**
 ![image](https://github.com/user-attachments/assets/3ecf8a30-bd73-4ae6-8e53-85588ea4cc19)
 
-### Model Optimization
 ## Results 
+
+**Table 1. Feature Importance of the Random forest model**
+|Feature Name|Importance |
+|------------|-----------|
+|polyuria|0.221035|
+|polydipsia|0.190477|
+|gender|0.105930|
+|sudden_weight_loss|0.056505|
+|alopecia|0.049794|
+|partial_paresis| 0.049585|
+|irritability|0.048946|
+|Delayed_healing|0.036369|
+|Itching|0.030539|
+|Polyphagia|0.028912|
+|Genital_thrush|0.025418|
+|Visual_blurring|0.025132|
+|Weakness|0.024459|
+|Muscle_stiffness|0.022987|
+|Obesity|0.021266|
+|Age_group_35_49|0.017160|
+|Age_group_65_|0.015825|
+|Age_group_50_64|0.015693|
+|Age_group__34|0.013969|
+
 ## Key Findings
 
-
+## Model Optimization
