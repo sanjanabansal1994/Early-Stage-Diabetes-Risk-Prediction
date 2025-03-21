@@ -73,7 +73,8 @@ This project uses the following Python libraries
 - matplotlib : For creating graphs and plots.
 - seaborn : For enhancing the style of matplotlib plots.
 - sklearn : For linear regression analysis.
-- plotly : For dynamic plots
+- plotly : For dynamic plots.
+- tensorflow: for training neural networks.
 
 ## Methodology 
 
@@ -132,7 +133,7 @@ Based on these two metrics, the random forest model had the highest accuracy (0.
 ![image](https://github.com/user-attachments/assets/3ecf8a30-bd73-4ae6-8e53-85588ea4cc19)
 
 ## Results 
-
+The feature importance analysis highlights the most influential predictors of diabetes risk in our model. The features with the highest importance were polyuria (frequent urination) and polydipsia (excessive thirst), with both at similar levels. Gender also played an important role in predicting risk. Other notable features included sudden weight loss, alopecia, partial paresis, and irritability. The remaining features were lower in importance and therefore were less influential in distinguishing between high-risk and low-risk individuals compared to other features. 
 **Table 1. Feature Importance of the Random forest model**
 |Feature Name|Importance |
 |------------|-----------|
