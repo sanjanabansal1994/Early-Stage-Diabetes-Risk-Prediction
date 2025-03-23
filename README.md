@@ -167,3 +167,7 @@ By integrating these findings, insurance companies can improve risk stratificati
 
 ## Model Optimization
 The chosen model already has high accuracy however it can be improved by identifying and removing less useful features, hyperparameter tuning, and cross-validation. These adjustments can reduce risk of overfitting and provide a better estimate of how well our model works on unseen data.
+
+## Members
+
+- [Anna Veremchuk](https://www.loom.com/share/18b3132b5e964f629bd50f3b6f6bfcb4?sid=bbaab4f4-9e40-4e27-8064-50c9879fd19e)
