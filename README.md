@@ -111,7 +111,7 @@ These steps collectively provide a comprehensive understanding of the dataset, f
 After exploratory data analysis, several steps were taken to clean the data to prepare for modelling. This included creating a new categorical variable for the age group and one hot encoding to get dummy variables and recoding all binary variables from Yes/No to [0,1]. 
 
 ### Model Selection and Training 
-To further investigate this, we developed multiple machine learning models, including logistic regression, K-Nearest Neighbors (KNN), decision trees, random forest, XGBoost, and neural networks. The dataset was divided into a training set (80%) and a validation set (20%), ensuring a consistent test-train split across all models.
+To further investigate this, we developed multiple machine learning models, including logistic regression, K-Nearest Neighbors (KNN), decision trees, random forest, XGBoost, and neural networks. The dataset was divided into a training set (80%) and a test set (20%), ensuring a consistent test-train split across all models.
 
 Each model was evaluated based on accuracy and its corresponding confusion matrix, as shown below. Accuracy was used to identify the best-performing model, while the confusion matrix provided insight into false negatives—instances where high-risk individuals were misclassified as low-risk (bottom left corner of the confusion matrix). Minimizing false negatives was a key priority, as misclassifying high-risk individuals could pose a significant financial risk to insurance companies. If an individual with a higher likelihood of developing early-stage diabetes is incorrectly classified as low-risk, they may receive a lower premium despite carrying a higher potential cost, ultimately increasing the insurer's exposure to risk.
 
@@ -173,3 +173,4 @@ The chosen model already has high accuracy however it can be improved by identif
 - [Anna Veremchuk](https://www.loom.com/share/18b3132b5e964f629bd50f3b6f6bfcb4?sid=bbaab4f4-9e40-4e27-8064-50c9879fd19e)
 - [Hadia Hussain](https://www.youtube.com/watch?v=B-WWemk3V9w)
 - [Sanjana Garg](https://youtu.be/0SQcdDZO978)
+- [Mehrdad Malek](https://youtu.be/w0B5dBRbNzc)
